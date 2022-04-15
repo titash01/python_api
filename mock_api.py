@@ -11,7 +11,7 @@ def get_large_request(rowcount):
     def f():
         """generates mock data"""
         for _ in range(rowcount):
-            time.sleep(0.1)
+            time.sleep(0.01)
             txid = uuid.uuid4()
             print(txid)
             uid = uuid.uuid4()
